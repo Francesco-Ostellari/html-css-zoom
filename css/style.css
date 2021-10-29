@@ -128,11 +128,6 @@ main {
   font-size: 2em;
 }
 
-.block-arrow {
-  line-height: 26px;
-  margin-left: 10px;
-}
-
 .fa-chart-bar {
   font-size: 2em;
 }
@@ -164,6 +159,11 @@ main {
   padding: 0 30px;
   font-weight: bold;
   font-size: 1em;
-  color: red;
   text-align: center;
+}
+
+.a-end-meeting {
+  color: red;
+  text-decoration: none;
+  padding:40px 0;
 }
