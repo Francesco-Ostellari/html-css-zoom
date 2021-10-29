@@ -79,12 +79,14 @@ main {
   position: fixed;
   bottom: 0;
   height: 100px;
+  line-height: 100px;
   background-color: var(--grigio-scuro);
   align-items: center;
 }
 
 .container-footer {
-  justify-content: space-between;  
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .ul-footer {
@@ -138,4 +140,30 @@ main {
 .fa-share-square {
   font-size: 2em;
   color: lightgreen;
+}
+
+.fa-comment {
+  font-size: 2em;
+}
+
+.fa-record-vinyl {
+  font-size: 2em;
+}
+
+.fa-th-large {
+  font-size: 2em;
+}
+
+.fa-ellipsis-h {
+  font-size: 2em;
+}
+
+.end-meeting {
+  background-color: var(--grigio-opaco);
+  height: 100%;
+  padding: 0 30px;
+  font-weight: bold;
+  font-size: 1em;
+  color: red;
+  text-align: center;
 }
