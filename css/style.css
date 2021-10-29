@@ -12,6 +12,7 @@
 :root {
   --grigio: #4A4A4A;
   --grigio-scuro: #222222;
+  --grigio-opaco:#626F7C;
 }
 
 .flex {
@@ -69,6 +70,10 @@ main {
   margin-right: 10px;
 }
 
+.text {
+  background-color: var(--grigio-opaco);
+}
+
 .footer {
   width: 100%;
   position: fixed;
@@ -83,18 +88,22 @@ main {
   background-color: transparent;
   border: 0;
   margin-right: 15px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .block:hover {
   background-color: gray;
+  border: var(--grigio-opaco);
+  border-radius: 5px;
 }
 
 .fa-microphone {
   font-size: 2em;
 }
-
-.btn {
-  flex-wrap: wrap;
+.fa-chevron-up {
+  align-items: end;
 }
 
 .text-footer {
