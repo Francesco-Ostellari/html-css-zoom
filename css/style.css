@@ -109,9 +109,6 @@ main {
 .fa-microphone {
   font-size: 2em;
 }
-.fa-chevron-up {
-  align-items: end;
-}
 
 .text-footer {
   font-size: 1em;
@@ -123,4 +120,22 @@ main {
 
 .fa-user-plus {
   font-size: 2em;
+}
+
+.fa-users {
+  font-size: 2em;
+}
+
+.block-arrow {
+  line-height: 26px;
+  margin-left: 10px;
+}
+
+.fa-chart-bar {
+  font-size: 2em;
+}
+
+.fa-share-square {
+  font-size: 2em;
+  color: lightgreen;
 }
