@@ -41,6 +41,9 @@ body {
   border-radius: 5px;
 }
 
+.button {
+  list-style: none;
+}
 .li-button {
   margin-right: 10px;
 }
@@ -69,6 +72,35 @@ main {
 .footer {
   width: 100%;
   position: fixed;
+  bottom: 0;
   height: 100px;
   background-color: var(--grigio-scuro);
+  list-style: none;
+  align-items: center;
+}
+
+.block {
+  background-color: transparent;
+  border: 0;
+  margin-right: 15px;
+}
+
+.block:hover {
+  background-color: gray;
+}
+
+.fa-microphone {
+  font-size: 2em;
+}
+
+.btn {
+  flex-wrap: wrap;
+}
+
+.text-footer {
+  font-size: 1.5em;
+}
+
+.fa-video {
+  font-size: 2em;
 }
