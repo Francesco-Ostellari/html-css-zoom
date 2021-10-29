@@ -80,8 +80,15 @@ main {
   bottom: 0;
   height: 100px;
   background-color: var(--grigio-scuro);
-  list-style: none;
   align-items: center;
+}
+
+.container-footer {
+  justify-content: space-between;  
+}
+
+.ul-footer {
+  list-style: none;
 }
 
 .block {
@@ -107,9 +114,13 @@ main {
 }
 
 .text-footer {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .fa-video {
+  font-size: 2em;
+}
+
+.fa-user-plus {
   font-size: 2em;
 }
