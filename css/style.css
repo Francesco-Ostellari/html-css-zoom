@@ -145,6 +145,7 @@ main {
 .float {
   float: left;
 }
+
 .clearfix::after {
   content: '';
   display: table;
