@@ -31,7 +31,6 @@ body {
   width: 100%;
   height: 50px;
   background-color: black;
-  position: fixed;
   align-items: center;
   justify-content: end;
 }
@@ -52,7 +51,8 @@ body {
 
 /* layout main */
 main {
- padding-top: 80px;
+ overflow: auto;
+ height: calc(100% - 150px);
 }
 
 .container-main {
@@ -80,7 +80,6 @@ main {
 /* layout footer */
 .footer {
   width: 100%;
-  position: fixed;
   bottom: 0;
   height: 100px;
   line-height: 100px;
